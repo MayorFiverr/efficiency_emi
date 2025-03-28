@@ -40,6 +40,7 @@ class NewsletterForm extends FormFront
                     ->maxLength(-1)
                     ->placeholder(__('Enter Your Email'))
                     ->addAttribute('id', 'newsletter-email')
+                    ->addAttribute('style', 'background-color: white !important; color: black !important; border: 1px solid black !important; padding: 10px; width: 100%; margin-top: 10px;')
             )
             ->add(
                 'submit',
